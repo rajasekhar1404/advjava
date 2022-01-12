@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>spl</servlet-name>
+        <servlet-class>MySecondProject</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>spl</servlet-name>
+        <url-pattern>/second</url-pattern>
+    </servlet-mapping>
+</web-app>

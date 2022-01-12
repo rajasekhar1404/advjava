@@ -1,0 +1,44 @@
+10-Jan-2022 23:29:51.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.56
+10-Jan-2022 23:29:51.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2021 14:30:07 UTC
+10-Jan-2022 23:29:51.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.56.0
+10-Jan-2022 23:29:51.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Jan-2022 23:29:51.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Jan-2022 23:29:51.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Jan-2022 23:29:51.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.1
+10-Jan-2022 23:29:51.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.1+12-LTS-39
+10-Jan-2022 23:29:51.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Jan-2022 23:29:51.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56
+10-Jan-2022 23:29:51.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56
+10-Jan-2022 23:29:51.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Jan-2022 23:29:51.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Jan-2022 23:29:51.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Jan-2022 23:29:51.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Jan-2022 23:29:51.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jan-2022 23:29:51.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56\conf\logging.properties
+10-Jan-2022 23:29:51.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jan-2022 23:29:51.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jan-2022 23:29:51.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jan-2022 23:29:51.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Jan-2022 23:29:51.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56
+10-Jan-2022 23:29:51.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56
+10-Jan-2022 23:29:51.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56\temp
+10-Jan-2022 23:29:51.478 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+10-Jan-2022 23:29:51.478 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+10-Jan-2022 23:29:51.478 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10-Jan-2022 23:29:51.483 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+10-Jan-2022 23:29:51.781 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Jan-2022 23:29:51.811 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [562] milliseconds
+10-Jan-2022 23:29:51.851 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jan-2022 23:29:51.851 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.56]
+10-Jan-2022 23:29:51.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56\webapps\docs]
+10-Jan-2022 23:29:52.060 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56\webapps\docs] has finished in [201] ms
+10-Jan-2022 23:29:52.060 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56\webapps\examples]
+10-Jan-2022 23:29:52.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56\webapps\examples] has finished in [277] ms
+10-Jan-2022 23:29:52.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56\webapps\host-manager]
+10-Jan-2022 23:29:52.368 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56\webapps\host-manager] has finished in [31] ms
+10-Jan-2022 23:29:52.368 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56\webapps\manager]
+10-Jan-2022 23:29:52.384 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56\webapps\manager] has finished in [16] ms
+10-Jan-2022 23:29:52.384 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56\webapps\ROOT]
+10-Jan-2022 23:29:52.403 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Learning_journy\java\Advanced_java\apache-tomcat-9.0.56\webapps\ROOT] has finished in [19] ms
+10-Jan-2022 23:29:52.421 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Jan-2022 23:29:52.483 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [672] milliseconds
