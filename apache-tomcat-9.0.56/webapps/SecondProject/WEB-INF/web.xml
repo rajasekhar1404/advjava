@@ -8,4 +8,24 @@
         <servlet-name>spl</servlet-name>
         <url-pattern>/second</url-pattern>
     </servlet-mapping>
+
+        <servlet>
+        <servlet-name>spl1</servlet-name>
+        <servlet-class>subonesecond</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>spl1</servlet-name>
+        <url-pattern>/secondone</url-pattern>
+    </servlet-mapping>
+
+        <servlet>
+        <servlet-name>spl2</servlet-name>
+        <servlet-class>subtwosecond</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>spl2</servlet-name>
+        <url-pattern>/secondtwo</url-pattern>
+    </servlet-mapping>
 </web-app>
