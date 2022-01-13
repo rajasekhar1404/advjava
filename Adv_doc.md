@@ -115,3 +115,7 @@
    - init
    - service
    - destroy
+
+# database connectivity for servlets
+
+ - 
