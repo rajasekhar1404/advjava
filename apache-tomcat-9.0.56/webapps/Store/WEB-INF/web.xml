@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>storepros</servlet-name>
+        <servlet-class>StoreProducts</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>storepros</servlet-name>
+        <url-pattern>/submitproducts</url-pattern>
+    </servlet-mapping>
+</web-app>
