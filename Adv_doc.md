@@ -129,4 +129,23 @@
  - We can develop application without writing java code.
  - we can write multiple types of codes in a single jsp file.
  - we can write jsp code without having knowledge on java.
- - 
+
+# JSP Elements:
+
+ - Telmplate Text: Text that is directly Written inside jsp file.1
+ - Scriptlet: It is used to write java code inside jsp.
+   - it can be identified with scriptlet tags as follows
+      <%
+        java code
+      %>
+ - JSP Declarations: it is used to declare variables or methods.
+      <%!
+        instance variables
+        instance methods
+        static variables
+        static methods
+      %>
+ - JSP Directivies
+ - JSP Expressions
+ - JSP Action Tags
+ - JSP Custom Tags
