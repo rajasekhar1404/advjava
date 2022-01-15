@@ -118,4 +118,15 @@
 
 # database connectivity for servlets
 
+ - same as regular java database connectivity.
+
+# introduction to JSP
+
+ - JSP: Java Server Pages
+ - it is advanced version of servlets.
+ - it improves the productivity
+ - we can separate presentation logic bussiness Logic
+ - We can develop application without writing java code.
+ - we can write multiple types of codes in a single jsp file.
+ - we can write jsp code without having knowledge on java.
  - 
