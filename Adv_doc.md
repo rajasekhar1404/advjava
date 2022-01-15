@@ -145,7 +145,43 @@
         static variables
         static methods
       %>
- - JSP Directivies
- - JSP Expressions
+ - JSP Directivie: it is used to give instructions to java compiler
+                  <%@ directivename otherparameters
+                  %>
+   directive attributes: language, import, extends, session, info, contextType, errorPage, isErrorPage, isThreadSafe, isELIgnored.
+ - JSP Expressions:it is used to print the result.
+                     <%=
+                          expression
+                     %>
+   - we have 3 directives in it
+     - page: to include content in it
+     - include: to include the other files, like other jsp or html etc.
+     - taglib: to create custom tags.
  - JSP Action Tags
  - JSP Custom Tags
+
+# java beans
+
+ - java beans is also a java class which follows it's own rules.
+   - those rules are
+     - class must be declared as public.
+     - it must implements from serializable class.(not mandatary)
+     - all properties mmust be declared as private.
+     - write setteer and getter methods for each property
+       - ex:
+            private int rno;
+
+            public int getRno()
+            {
+              return rno;
+            }
+
+            public void setRno(int r)
+            {
+              rno=r;
+            }
+     - Provide default constructer
+        public Student()
+        {
+          
+        }
