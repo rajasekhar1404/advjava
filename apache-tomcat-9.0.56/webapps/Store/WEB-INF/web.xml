@@ -2,6 +2,11 @@
     <servlet>
         <servlet-name>storepros</servlet-name>
         <servlet-class>StoreProducts</servlet-class>
+        
+        <init-param>
+            <param-name>dr</param-name>
+            <param-value>com.mysql.jdbc.Driver</param-value>
+        </init-param>
     </servlet>
 
     <servlet-mapping>

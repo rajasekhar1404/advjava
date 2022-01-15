@@ -1,6 +1,7 @@
 import javax.servlet.http.*;
 import java.io.*;
 import java.sql.*;
+import javax.servlet.*;
 
 public class StoreProducts extends HttpServlet
 {
@@ -8,7 +9,8 @@ public class StoreProducts extends HttpServlet
 
 public void service(HttpServletRequest request, HttpServletResponse response)
 {
-        String driver = "com.mysql.jdbc.Driver";
+        ServletConfig config = getServletConfig();
+        String driver = config.getInitParameter("dr");
         String url = "jdbc:mysql://localhost:3306/mystore";
         String uname = "root";
         String pwd = "Rajasekhar@123";

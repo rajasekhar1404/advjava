@@ -1,0 +1,52 @@
+<web-app>
+
+    <context-param>
+        <param-name>company</param-name>
+        <param-value>nCodeIT</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>spl</servlet-name>
+        <servlet-class>MySecondProject</servlet-class>
+
+        <init-param>
+            <param-name>nm</param-name>
+            <param-value>Rajasekhar</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>spl</servlet-name>
+        <url-pattern>/second</url-pattern>
+    </servlet-mapping>
+
+        <servlet>
+        <servlet-name>spl1</servlet-name>
+        <servlet-class>subonesecond</servlet-class>
+
+        <init-param>
+            <param-name>nm</param-name>
+            <param-value>Rajasekhar</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>spl1</servlet-name>
+        <url-pattern>/secondone</url-pattern>
+    </servlet-mapping>
+
+        <servlet>
+        <servlet-name>spl2</servlet-name>
+        <servlet-class>subtwosecond</servlet-class>
+
+        <init-param>
+            <param-name>nm</param-name>
+            <param-value>Rajasekhar</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>spl2</servlet-name>
+        <url-pattern>/secondtwo</url-pattern>
+    </servlet-mapping>
+</web-app>
