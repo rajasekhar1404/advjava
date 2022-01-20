@@ -103,3 +103,547 @@
 15-Jan-2022 21:28:52.959 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
 15-Jan-2022 21:28:52.959 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
 15-Jan-2022 21:28:52.959 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+15-Jan-2022 22:09:23.140 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+15-Jan-2022 22:09:23.140 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+15-Jan-2022 22:09:23.140 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+15-Jan-2022 22:13:27.820 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Hellojsp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+JFrame cannot be resolved to a type
+
+An error occurred at line: [66] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [77] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [118] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (hijsp_jsp, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+JFrame cannot be resolved to a type
+
+An error occurred at line: [66] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [77] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [118] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (hijsp_jsp, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:487)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+15-Jan-2022 22:14:08.361 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Hellojsp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+JFrame cannot be resolved to a type
+
+An error occurred at line: [66] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [77] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [118] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (hijsp_jsp, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+JFrame cannot be resolved to a type
+
+An error occurred at line: [66] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [77] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [118] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (hijsp_jsp, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:487)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+15-Jan-2022 22:14:28.294 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Hellojsp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+JFrame cannot be resolved to a type
+
+An error occurred at line: [66] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [77] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [118] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (hijsp_jsp, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+JFrame cannot be resolved to a type
+
+An error occurred at line: [66] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [77] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [118] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (hijsp_jsp, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:487)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+15-Jan-2022 22:15:09.325 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Hellojsp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+JFrame cannot be resolved to a type
+
+An error occurred at line: [66] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [77] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [118] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (hijsp_jsp, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+JFrame cannot be resolved to a type
+
+An error occurred at line: [66] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [77] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [118] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (hijsp_jsp, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:487)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+15-Jan-2022 22:15:49.719 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Hellojsp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+JFrame cannot be resolved to a type
+
+An error occurred at line: [66] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [77] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [118] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (hijsp_jsp, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+JFrame cannot be resolved to a type
+
+An error occurred at line: [66] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [77] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getServletConfig() is undefined for the type hijsp_jsp
+
+An error occurred at line: [118] in the generated java file: [D:\Learning_journy\java\Advanced_java\Adv-Learning_programs\apache-tomcat-9.0.56\work\Catalina\localhost\Hellojsp\org\apache\jsp\hijsp_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (hijsp_jsp, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:487)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+15-Jan-2022 22:29:36.580 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Hellojsp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the jsp file: [/hijsp.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+13: }
+14: %>
+15: <%
+16: int a = 10
+17: int b = 20;
+18: 
+19: out.print("Sum of a+b: "+ (a+b));
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the jsp file: [/hijsp.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+13: }
+14: %>
+15: <%
+16: int a = 10
+17: int b = 20;
+18: 
+19: out.print("Sum of a+b: "+ (a+b));
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:487)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+15-Jan-2022 22:33:00.766 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Hellojsp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the jsp file: [/hijsp.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+13: }
+14: %>
+15: <%
+16: int a = 10
+17: int b = 20;
+18: 
+19: out.print("Sum of a+b: "+ (a+b));
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the jsp file: [/hijsp.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+13: }
+14: %>
+15: <%
+16: int a = 10
+17: int b = 20;
+18: 
+19: out.print("Sum of a+b: "+ (a+b));
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:487)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+15-Jan-2022 22:34:20.799 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Hellojsp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [43] in the jsp file: [/hijsp.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+40: 
+41: <%
+42: int k=20;
+43: int l = 0
+44: 
+45: %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [43] in the jsp file: [/hijsp.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+40: 
+41: <%
+42: int k=20;
+43: int l = 0
+44: 
+45: %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:487)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+15-Jan-2022 22:42:12.231 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Hellojsp] threw exception [/hijsp.jsp (line: [50], column: [1]) [Page directive] has invalid attribute: [isELignored]] with root cause
+	org.apache.jasper.JasperException: /hijsp.jsp (line: [50], column: [1]) [Page directive] has invalid attribute: [isELignored]
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:41)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+		at org.apache.jasper.compiler.JspUtil.checkAttributes(JspUtil.java:208)
+		at org.apache.jasper.compiler.Validator$DirectiveVisitor.visit(Validator.java:112)
+		at org.apache.jasper.compiler.Node$PageDirective.accept(Node.java:580)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2385)
+		at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2437)
+		at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2443)
+		at org.apache.jasper.compiler.Node$Root.accept(Node.java:471)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2385)
+		at org.apache.jasper.compiler.Validator.validateDirectives(Validator.java:1829)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:203)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:391)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)

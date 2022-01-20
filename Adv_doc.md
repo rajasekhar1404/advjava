@@ -185,3 +185,38 @@
         {
           
         }
+
+# jsp action tags
+
+  - to change the behaviour of servlet engine
+ - to perform actions
+ - we must create the java program in the classes folder so we can get the result, that is what you learn while learning this topic.
+
+# custom tags in JSP
+
+ - These are used to create our own tags to perform required action.
+ - it can be done with a simpleTagSupport class and doTag method.
+ - we use tld file to like our programs with tags, tld: tag library discripter.
+ - we use three steps to create a custom tag.
+   - create a cls that extends SimpleTagSupport
+   - override doTag() method
+   - create a tld file.
+
+# implicit variables in JSP
+  these variables are given by JSP to automatically work, we don't need to create object for these variables, we can directly implement the values using the available variables given by JSP.
+
+ - request: it is an object of HttpServletRequest.
+ - response: HttpServletResponse.
+ - out: we can print text or anything on the screen with this clss.
+ - session: thse are used to manage the session.(HttpSession)
+ - application
+ - config
+ - pageContext
+ - page
+ - Exception
+
+# State Management in Web Apps
+
+ - HTTP(HyperText Transfer Protocol) is a Stateless Protocol
+ - it won't remember the previous status except the just before status.
+ - we can manage them StateFull using Hidden Variables, Cookies, Sessions, Sessions with URL Rewriting.
