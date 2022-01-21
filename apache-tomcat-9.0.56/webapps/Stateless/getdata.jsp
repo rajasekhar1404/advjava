@@ -1,6 +1,11 @@
-User entered data is <br><br>
+<%@ page import="java.servlet.http.*"%>
 
-Username is: <%= request.getParameter("un") %> <br>
-password is: <%= request.getParameter("pwd") %> <br>
+User entered data is <br><br>
+<%
+    String s1 = (String)session.getAttribute("sun");
+    String s2 = (String)session.getAttribute("spwd");
+%>
+Username is: <%= s1 %><br>
+Password is: <%= s2 %><br>
 Email is: <%= request.getParameter("em") %> <br>
 Subject is: <%= request.getParameter("sb") %> <br>

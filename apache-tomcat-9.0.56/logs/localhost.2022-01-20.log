@@ -1,0 +1,296 @@
+20-Jan-2022 21:56:19.637 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+20-Jan-2022 21:56:19.637 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+20-Jan-2022 21:56:19.637 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4f2613d1')
+20-Jan-2022 21:58:09.190 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Stateless] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [4] in the jsp file: [/Form1.jsp]
+requrest cannot be resolved
+1: <html>
+2:     <head>
+3:         <%
+4:         String name = requrest.getParameter("un");
+5:         String pwd = request.getParameter("pwd");
+6:         %>
+7: 
+
+
+An error occurred at line: [11] in the jsp file: [/Form1.jsp]
+Syntax error on token "name", new expected
+8:     </head>
+9:     <body>
+10:         <form action="./getdata.jsp" method="post">
+11:         <input type="hidden" name="hnm" value=<%name%>>
+12:         <input type="hidden" name ="hpwd" value=<$pwd%>>
+13:         Email
+14:         <input type="email" name="em"><br>
+
+
+An error occurred at line: [11] in the jsp file: [/Form1.jsp]
+out.write cannot be resolved to a type
+8:     </head>
+9:     <body>
+10:         <form action="./getdata.jsp" method="post">
+11:         <input type="hidden" name="hnm" value=<%name%>>
+12:         <input type="hidden" name ="hpwd" value=<$pwd%>>
+13:         Email
+14:         <input type="email" name="em"><br>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [4] in the jsp file: [/Form1.jsp]
+requrest cannot be resolved
+1: <html>
+2:     <head>
+3:         <%
+4:         String name = requrest.getParameter("un");
+5:         String pwd = request.getParameter("pwd");
+6:         %>
+7: 
+
+
+An error occurred at line: [11] in the jsp file: [/Form1.jsp]
+Syntax error on token "name", new expected
+8:     </head>
+9:     <body>
+10:         <form action="./getdata.jsp" method="post">
+11:         <input type="hidden" name="hnm" value=<%name%>>
+12:         <input type="hidden" name ="hpwd" value=<$pwd%>>
+13:         Email
+14:         <input type="email" name="em"><br>
+
+
+An error occurred at line: [11] in the jsp file: [/Form1.jsp]
+out.write cannot be resolved to a type
+8:     </head>
+9:     <body>
+10:         <form action="./getdata.jsp" method="post">
+11:         <input type="hidden" name="hnm" value=<%name%>>
+12:         <input type="hidden" name ="hpwd" value=<$pwd%>>
+13:         Email
+14:         <input type="email" name="em"><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:487)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-Jan-2022 21:59:12.094 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Stateless] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [6] in the jsp file: [/Form1.jsp]
+requrest cannot be resolved
+3: 
+4:     </head>
+5:     <%
+6:     String name = requrest.getParameter("un");
+7:     String pwd = request.getParameter("pwd");
+8:     %>
+9:     <body>
+
+
+An error occurred at line: [11] in the jsp file: [/Form1.jsp]
+Syntax error on token "name", new expected
+8:     %>
+9:     <body>
+10:         <form action="./getdata.jsp" method="post">
+11:         <input type="hidden" name="hnm" value=<%name%>>
+12:         <input type="hidden" name ="hpwd" value=<$pwd%>>
+13:         Email
+14:         <input type="email" name="em"><br>
+
+
+An error occurred at line: [11] in the jsp file: [/Form1.jsp]
+out.write cannot be resolved to a type
+8:     %>
+9:     <body>
+10:         <form action="./getdata.jsp" method="post">
+11:         <input type="hidden" name="hnm" value=<%name%>>
+12:         <input type="hidden" name ="hpwd" value=<$pwd%>>
+13:         Email
+14:         <input type="email" name="em"><br>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [6] in the jsp file: [/Form1.jsp]
+requrest cannot be resolved
+3: 
+4:     </head>
+5:     <%
+6:     String name = requrest.getParameter("un");
+7:     String pwd = request.getParameter("pwd");
+8:     %>
+9:     <body>
+
+
+An error occurred at line: [11] in the jsp file: [/Form1.jsp]
+Syntax error on token "name", new expected
+8:     %>
+9:     <body>
+10:         <form action="./getdata.jsp" method="post">
+11:         <input type="hidden" name="hnm" value=<%name%>>
+12:         <input type="hidden" name ="hpwd" value=<$pwd%>>
+13:         Email
+14:         <input type="email" name="em"><br>
+
+
+An error occurred at line: [11] in the jsp file: [/Form1.jsp]
+out.write cannot be resolved to a type
+8:     %>
+9:     <body>
+10:         <form action="./getdata.jsp" method="post">
+11:         <input type="hidden" name="hnm" value=<%name%>>
+12:         <input type="hidden" name ="hpwd" value=<$pwd%>>
+13:         Email
+14:         <input type="email" name="em"><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:487)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+20-Jan-2022 22:00:09.630 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Stateless] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [11] in the jsp file: [/Form1.jsp]
+Syntax error on token "name", new expected
+8:     %>
+9:     <body>
+10:         <form action="./getdata.jsp" method="post">
+11:         <input type="hidden" name="hnm" value=<%name%>>
+12:         <input type="hidden" name ="hpwd" value=<$pwd%>>
+13:         Email
+14:         <input type="email" name="em"><br>
+
+
+An error occurred at line: [11] in the jsp file: [/Form1.jsp]
+out.write cannot be resolved to a type
+8:     %>
+9:     <body>
+10:         <form action="./getdata.jsp" method="post">
+11:         <input type="hidden" name="hnm" value=<%name%>>
+12:         <input type="hidden" name ="hpwd" value=<$pwd%>>
+13:         Email
+14:         <input type="email" name="em"><br>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [11] in the jsp file: [/Form1.jsp]
+Syntax error on token "name", new expected
+8:     %>
+9:     <body>
+10:         <form action="./getdata.jsp" method="post">
+11:         <input type="hidden" name="hnm" value=<%name%>>
+12:         <input type="hidden" name ="hpwd" value=<$pwd%>>
+13:         Email
+14:         <input type="email" name="em"><br>
+
+
+An error occurred at line: [11] in the jsp file: [/Form1.jsp]
+out.write cannot be resolved to a type
+8:     %>
+9:     <body>
+10:         <form action="./getdata.jsp" method="post">
+11:         <input type="hidden" name="hnm" value=<%name%>>
+12:         <input type="hidden" name ="hpwd" value=<$pwd%>>
+13:         Email
+14:         <input type="email" name="em"><br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:487)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)

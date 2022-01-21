@@ -1,9 +1,21 @@
+<%@page import="java.servlet.http.*"%>
+
 <html>
     <head>
 
     </head>
+
     <body>
-        <form action="./getdata.jsp" method="post">
+        <%
+        String name = request.getParameter("un");
+        String pwd = request.getParameter("pwd");
+
+        session.setAttribute("sun", name);
+        session.setAttribute("spwd", pwd);
+        %>
+        <form action="<%= response.encodeURL("getdata.jsp")%>" method="post">
+
+
         Email
         <input type="email" name="em"><br>
         Subject
